@@ -13,6 +13,7 @@ function App() {
       <Header/>
       <Widgets/>
       <Footer/>
+      
      {/* <Sidebar/> */}
     </div>
   );
