@@ -4,7 +4,7 @@ import "./Widgets.css";
 import InfoIcon from "@mui/icons-material/Info";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
-function Widgets() {
+function News() {
   const newsArticle = (heading, subtitle) => (
     <div className="widgets__article">
       <div className="widgets__articleLeft">
@@ -36,4 +36,4 @@ function Widgets() {
   );
 }
 
-export default Widgets;
+export { News };

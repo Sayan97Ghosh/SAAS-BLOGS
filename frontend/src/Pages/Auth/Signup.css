@@ -1,0 +1,8 @@
+#logo{
+    object-fit: contain;
+    justify-content: center;
+    margin-left: 15%;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

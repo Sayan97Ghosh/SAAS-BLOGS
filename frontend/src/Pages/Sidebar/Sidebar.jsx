@@ -1,16 +1,15 @@
 import { Avatar } from "@mui/material";
 import React from "react";
 import "./Sidebar.css";
-// import { useSelector } from "react-redux";
-// import { selectUser } from "./features/userSlice";
+
 
 function Sidebar() {
 //   const user = useSelector(selectUser);
 
-  const recentItem = (topic) => (
+  const recentItem = () => (
     <div className="sidebar__recentItem">
       <span className="sidebar__hash">#</span>
-      <p>{topic}</p>
+      <p>This is side bar</p>
       
     </div>
   );
